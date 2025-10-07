@@ -14,7 +14,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 1,
    "id": "db7a3a96-085e-43a1-920e-434ea9236274",
    "metadata": {
     "tags": []
@@ -157,7 +157,7 @@
        "4        61.0        78.0      71.0        60.0        81.0      62.0  "
       ]
      },
-     "execution_count": 3,
+     "execution_count": 1,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -166,7 +166,7 @@
     "import pandas as pd \n",
     "\n",
     "# read in fiule, argument is the file path \n",
-    "df = pd.read_csv('wetlands_seasonal_bird_diversity.csv')\n",
+    "df = pd.read_csv('data/wetlands_seasonal_bird_diversity.csv')\n",
     "\n",
     "# Print data frame's frist five rows \n",
     "df.head()"
@@ -174,7 +174,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 2,
    "id": "de3108b9-48f9-412b-a789-e7def85ef318",
    "metadata": {
     "tags": []
@@ -317,7 +317,7 @@
        "13        64.0        63.0      33.0        60.0        56.0      38.0  "
       ]
      },
-     "execution_count": 4,
+     "execution_count": 2,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -330,7 +330,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 3,
    "id": "b019ba0b-efa5-45fa-9851-fab65fe74e82",
    "metadata": {
     "tags": []
@@ -345,7 +345,7 @@
        "      dtype='object')"
       ]
      },
-     "execution_count": 5,
+     "execution_count": 3,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -356,7 +356,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 4,
    "id": "ffd48bf5-8937-4389-adb1-dc77fe8a9490",
    "metadata": {
     "tags": []
@@ -381,7 +381,7 @@
        "dtype: object"
       ]
      },
-     "execution_count": 6,
+     "execution_count": 4,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -392,7 +392,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 6,
    "id": "029dd907-b94b-4544-8eb0-3a19ca1068b9",
    "metadata": {
     "tags": []
@@ -404,7 +404,7 @@
        "(14, 13)"
       ]
      },
-     "execution_count": 7,
+     "execution_count": 6,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -436,7 +436,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 11,
    "id": "d7fdab0f-70cf-4ec7-99ec-73f84d52925e",
    "metadata": {
     "tags": []
@@ -462,7 +462,7 @@
        "Name: MUL_spring, dtype: float64"
       ]
      },
-     "execution_count": 8,
+     "execution_count": 11,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -476,7 +476,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 12,
    "id": "7b41b659-5664-4fa0-a21e-bd94eea68060",
    "metadata": {
     "tags": []
@@ -488,7 +488,7 @@
        "pandas.core.series.Series"
       ]
      },
-     "execution_count": 9,
+     "execution_count": 12,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -511,7 +511,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 14,
    "id": "007bd21e-2766-44e6-84c5-effbe3b6f031",
    "metadata": {
     "tags": []
@@ -537,7 +537,7 @@
        "Name: MUL_spring, dtype: float64"
       ]
      },
-     "execution_count": 10,
+     "execution_count": 14,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -572,7 +572,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 20,
    "id": "7303628c-45e0-45dc-8c80-d1fa58bff0de",
    "metadata": {
     "tags": []
@@ -586,7 +586,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 23,
    "id": "d08ea1c8-44d4-445f-b100-1715ea011019",
    "metadata": {
     "tags": []
@@ -631,7 +631,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
+   "execution_count": 25,
    "id": "8164fcf7-5a4a-4447-a810-fd51a495001c",
    "metadata": {
     "tags": []
@@ -725,7 +725,7 @@
        "4        38.0        43.0      45.0        49.0        52.0      57.0"
       ]
      },
-     "execution_count": 13,
+     "execution_count": 25,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -755,7 +755,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 27,
    "id": "230e503d-d658-418f-9277-5317060c9149",
    "metadata": {
     "tags": []
@@ -862,7 +862,7 @@
        "13        64.0        63.0      33.0        60.0        56.0      38.0  "
       ]
      },
-     "execution_count": 14,
+     "execution_count": 27,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -875,7 +875,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 28,
    "id": "3cf20f37-17cf-4be2-a382-c4ab605262cb",
    "metadata": {
     "tags": []
@@ -920,7 +920,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 16,
+   "execution_count": 35,
    "id": "ec4dbae0-c70f-447d-bfd3-52897a5c5bd5",
    "metadata": {
     "tags": []
@@ -1009,7 +1009,7 @@
        "4        61.0        78.0      71.0        60.0        81.0      62.0  "
       ]
      },
-     "execution_count": 16,
+     "execution_count": 35,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1030,7 +1030,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 17,
+   "execution_count": 37,
    "id": "905bff91-445d-41f7-8fdb-b0bd7034ca9d",
    "metadata": {
     "tags": []
@@ -1155,7 +1155,7 @@
        "5        71.0        61.0      65.0        73.0        76.0      64.0  "
       ]
      },
-     "execution_count": 17,
+     "execution_count": 37,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1196,7 +1196,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+   "execution_count": 39,
    "id": "ddec75fe-f4bd-484d-b69c-9b33c6c7c2ec",
    "metadata": {
     "tags": []
@@ -1303,7 +1303,7 @@
        "13        64.0        63.0      33.0        60.0        56.0      38.0  "
       ]
      },
-     "execution_count": 18,
+     "execution_count": 39,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1315,7 +1315,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 19,
+   "execution_count": 40,
    "id": "f20573b8-436e-4148-9e2b-8c68dccf17fa",
    "metadata": {
     "tags": []
@@ -1368,7 +1368,7 @@
        "Index: []"
       ]
      },
-     "execution_count": 19,
+     "execution_count": 40,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1380,7 +1380,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 20,
+   "execution_count": 51,
    "id": "9d9eee8d-80a0-45a5-889e-1f1d10bc5eb8",
    "metadata": {
     "tags": []
@@ -1480,7 +1480,7 @@
        "13        43.0        56.0"
       ]
      },
-     "execution_count": 20,
+     "execution_count": 51,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1490,647 +1490,6 @@
     "sub_df = sub_df[['CSM_spring', 'CSM_winter']] #isolating 1 column --> series \n",
     "\n",
     "sub_df"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "0c3686ed-edc7-49fe-80c1-1466ba3b7bc8",
-   "metadata": {},
-   "source": [
-    "### Selecting rows by position \n",
-    "\n",
-    "Sometimes we may want to selecetc rows based on their *actual position* in the dataframe, \n",
-    "This is **position-based subsetting**. We use `iloc` selection. \n",
-    "\n",
-    "### Example"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 23,
-   "id": "fbf360e4-b881-422f-b689-ef39935840df",
-   "metadata": {
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "year          2014.0\n",
-       "CSM_winter      38.0\n",
-       "CSM_spring      43.0\n",
-       "CSM_fall        45.0\n",
-       "MUL_winter      49.0\n",
-       "MUL_spring      52.0\n",
-       "MUL_fall        57.0\n",
-       "SDW_winter      61.0\n",
-       "SDW_spring      78.0\n",
-       "SDW_fall        71.0\n",
-       "TJE_winter      60.0\n",
-       "TJE_spring      81.0\n",
-       "TJE_fall        62.0\n",
-       "Name: 4, dtype: float64"
-      ]
-     },
-     "execution_count": 23,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "# select the 5th row\n",
-    "df.iloc[4]"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 26,
-   "id": "019968fc-1a27-44c7-9b05-99eeec131a18",
-   "metadata": {
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<div>\n",
-       "<style scoped>\n",
-       "    .dataframe tbody tr th:only-of-type {\n",
-       "        vertical-align: middle;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe tbody tr th {\n",
-       "        vertical-align: top;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe thead th {\n",
-       "        text-align: right;\n",
-       "    }\n",
-       "</style>\n",
-       "<table border=\"1\" class=\"dataframe\">\n",
-       "  <thead>\n",
-       "    <tr style=\"text-align: right;\">\n",
-       "      <th></th>\n",
-       "      <th>year</th>\n",
-       "      <th>CSM_winter</th>\n",
-       "      <th>CSM_spring</th>\n",
-       "      <th>CSM_fall</th>\n",
-       "      <th>MUL_winter</th>\n",
-       "      <th>MUL_spring</th>\n",
-       "      <th>MUL_fall</th>\n",
-       "      <th>SDW_winter</th>\n",
-       "      <th>SDW_spring</th>\n",
-       "      <th>SDW_fall</th>\n",
-       "      <th>TJE_winter</th>\n",
-       "      <th>TJE_spring</th>\n",
-       "      <th>TJE_fall</th>\n",
-       "    </tr>\n",
-       "  </thead>\n",
-       "  <tbody>\n",
-       "    <tr>\n",
-       "      <th>0</th>\n",
-       "      <td>2010</td>\n",
-       "      <td>39.0</td>\n",
-       "      <td>40.0</td>\n",
-       "      <td>50.0</td>\n",
-       "      <td>45.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>61.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>75.0</td>\n",
-       "      <td>85.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>81.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>1</th>\n",
-       "      <td>2011</td>\n",
-       "      <td>48.0</td>\n",
-       "      <td>44.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>58.0</td>\n",
-       "      <td>52.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>78.0</td>\n",
-       "      <td>74.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>67.0</td>\n",
-       "      <td>70.0</td>\n",
-       "      <td>NaN</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>2</th>\n",
-       "      <td>2012</td>\n",
-       "      <td>51.0</td>\n",
-       "      <td>43.0</td>\n",
-       "      <td>49.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>58.0</td>\n",
-       "      <td>53.0</td>\n",
-       "      <td>71.0</td>\n",
-       "      <td>72.0</td>\n",
-       "      <td>73.0</td>\n",
-       "      <td>70.0</td>\n",
-       "      <td>63.0</td>\n",
-       "      <td>69.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>3</th>\n",
-       "      <td>2013</td>\n",
-       "      <td>42.0</td>\n",
-       "      <td>46.0</td>\n",
-       "      <td>38.0</td>\n",
-       "      <td>60.0</td>\n",
-       "      <td>58.0</td>\n",
-       "      <td>62.0</td>\n",
-       "      <td>69.0</td>\n",
-       "      <td>70.0</td>\n",
-       "      <td>70.0</td>\n",
-       "      <td>69.0</td>\n",
-       "      <td>74.0</td>\n",
-       "      <td>64.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>4</th>\n",
-       "      <td>2014</td>\n",
-       "      <td>38.0</td>\n",
-       "      <td>43.0</td>\n",
-       "      <td>45.0</td>\n",
-       "      <td>49.0</td>\n",
-       "      <td>52.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>61.0</td>\n",
-       "      <td>78.0</td>\n",
-       "      <td>71.0</td>\n",
-       "      <td>60.0</td>\n",
-       "      <td>81.0</td>\n",
-       "      <td>62.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>5</th>\n",
-       "      <td>2015</td>\n",
-       "      <td>44.0</td>\n",
-       "      <td>42.0</td>\n",
-       "      <td>45.0</td>\n",
-       "      <td>58.0</td>\n",
-       "      <td>50.0</td>\n",
-       "      <td>51.0</td>\n",
-       "      <td>71.0</td>\n",
-       "      <td>61.0</td>\n",
-       "      <td>65.0</td>\n",
-       "      <td>73.0</td>\n",
-       "      <td>76.0</td>\n",
-       "      <td>64.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>6</th>\n",
-       "      <td>2016</td>\n",
-       "      <td>41.0</td>\n",
-       "      <td>36.0</td>\n",
-       "      <td>47.0</td>\n",
-       "      <td>63.0</td>\n",
-       "      <td>48.0</td>\n",
-       "      <td>58.0</td>\n",
-       "      <td>67.0</td>\n",
-       "      <td>62.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>76.0</td>\n",
-       "      <td>76.0</td>\n",
-       "      <td>58.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>7</th>\n",
-       "      <td>2017</td>\n",
-       "      <td>46.0</td>\n",
-       "      <td>41.0</td>\n",
-       "      <td>43.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>54.0</td>\n",
-       "      <td>53.0</td>\n",
-       "      <td>66.0</td>\n",
-       "      <td>45.0</td>\n",
-       "      <td>54.0</td>\n",
-       "      <td>72.0</td>\n",
-       "      <td>63.0</td>\n",
-       "      <td>57.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>8</th>\n",
-       "      <td>2018</td>\n",
-       "      <td>48.0</td>\n",
-       "      <td>48.0</td>\n",
-       "      <td>44.0</td>\n",
-       "      <td>56.0</td>\n",
-       "      <td>54.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>55.0</td>\n",
-       "      <td>49.0</td>\n",
-       "      <td>51.0</td>\n",
-       "      <td>66.0</td>\n",
-       "      <td>60.0</td>\n",
-       "      <td>55.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>9</th>\n",
-       "      <td>2019</td>\n",
-       "      <td>39.0</td>\n",
-       "      <td>39.0</td>\n",
-       "      <td>40.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>52.0</td>\n",
-       "      <td>53.0</td>\n",
-       "      <td>54.0</td>\n",
-       "      <td>55.0</td>\n",
-       "      <td>53.0</td>\n",
-       "      <td>63.0</td>\n",
-       "      <td>54.0</td>\n",
-       "      <td>50.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>10</th>\n",
-       "      <td>2020</td>\n",
-       "      <td>46.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>47.0</td>\n",
-       "      <td>56.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>66.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>58.0</td>\n",
-       "      <td>54.0</td>\n",
-       "      <td>40.0</td>\n",
-       "      <td>54.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>11</th>\n",
-       "      <td>2021</td>\n",
-       "      <td>47.0</td>\n",
-       "      <td>44.0</td>\n",
-       "      <td>53.0</td>\n",
-       "      <td>54.0</td>\n",
-       "      <td>55.0</td>\n",
-       "      <td>60.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>58.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>53.0</td>\n",
-       "      <td>68.0</td>\n",
-       "      <td>51.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>12</th>\n",
-       "      <td>2022</td>\n",
-       "      <td>40.0</td>\n",
-       "      <td>46.0</td>\n",
-       "      <td>49.0</td>\n",
-       "      <td>60.0</td>\n",
-       "      <td>55.0</td>\n",
-       "      <td>65.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>60.0</td>\n",
-       "      <td>57.0</td>\n",
-       "      <td>60.0</td>\n",
-       "      <td>61.0</td>\n",
-       "      <td>60.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>13</th>\n",
-       "      <td>2023</td>\n",
-       "      <td>56.0</td>\n",
-       "      <td>43.0</td>\n",
-       "      <td>36.0</td>\n",
-       "      <td>72.0</td>\n",
-       "      <td>59.0</td>\n",
-       "      <td>53.0</td>\n",
-       "      <td>64.0</td>\n",
-       "      <td>63.0</td>\n",
-       "      <td>33.0</td>\n",
-       "      <td>60.0</td>\n",
-       "      <td>56.0</td>\n",
-       "      <td>38.0</td>\n",
-       "    </tr>\n",
-       "  </tbody>\n",
-       "</table>\n",
-       "</div>"
-      ],
-      "text/plain": [
-       "    year  CSM_winter  CSM_spring  CSM_fall  MUL_winter  MUL_spring  MUL_fall  \\\n",
-       "0   2010        39.0        40.0      50.0        45.0         NaN      61.0   \n",
-       "1   2011        48.0        44.0       NaN        58.0        52.0       NaN   \n",
-       "2   2012        51.0        43.0      49.0        57.0        58.0      53.0   \n",
-       "3   2013        42.0        46.0      38.0        60.0        58.0      62.0   \n",
-       "4   2014        38.0        43.0      45.0        49.0        52.0      57.0   \n",
-       "5   2015        44.0        42.0      45.0        58.0        50.0      51.0   \n",
-       "6   2016        41.0        36.0      47.0        63.0        48.0      58.0   \n",
-       "7   2017        46.0        41.0      43.0        57.0        54.0      53.0   \n",
-       "8   2018        48.0        48.0      44.0        56.0        54.0      57.0   \n",
-       "9   2019        39.0        39.0      40.0        57.0        52.0      53.0   \n",
-       "10  2020        46.0         NaN      47.0        56.0         NaN      66.0   \n",
-       "11  2021        47.0        44.0      53.0        54.0        55.0      60.0   \n",
-       "12  2022        40.0        46.0      49.0        60.0        55.0      65.0   \n",
-       "13  2023        56.0        43.0      36.0        72.0        59.0      53.0   \n",
-       "\n",
-       "    SDW_winter  SDW_spring  SDW_fall  TJE_winter  TJE_spring  TJE_fall  \n",
-       "0          NaN        75.0      85.0         NaN         NaN      81.0  \n",
-       "1         78.0        74.0       NaN        67.0        70.0       NaN  \n",
-       "2         71.0        72.0      73.0        70.0        63.0      69.0  \n",
-       "3         69.0        70.0      70.0        69.0        74.0      64.0  \n",
-       "4         61.0        78.0      71.0        60.0        81.0      62.0  \n",
-       "5         71.0        61.0      65.0        73.0        76.0      64.0  \n",
-       "6         67.0        62.0      57.0        76.0        76.0      58.0  \n",
-       "7         66.0        45.0      54.0        72.0        63.0      57.0  \n",
-       "8         55.0        49.0      51.0        66.0        60.0      55.0  \n",
-       "9         54.0        55.0      53.0        63.0        54.0      50.0  \n",
-       "10        57.0         NaN      58.0        54.0        40.0      54.0  \n",
-       "11        57.0        58.0      57.0        53.0        68.0      51.0  \n",
-       "12        57.0        60.0      57.0        60.0        61.0      60.0  \n",
-       "13        64.0        63.0      33.0        60.0        56.0      38.0  "
-      ]
-     },
-     "execution_count": 26,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "df"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 30,
-   "id": "882cef9e-3955-46d1-98ef-de052748fe06",
-   "metadata": {
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "CSM_winter    38.0\n",
-       "CSM_spring    43.0\n",
-       "CSM_fall      45.0\n",
-       "MUL_winter    49.0\n",
-       "MUL_spring    52.0\n",
-       "MUL_fall      57.0\n",
-       "SDW_winter    61.0\n",
-       "SDW_spring    78.0\n",
-       "SDW_fall      71.0\n",
-       "TJE_winter    60.0\n",
-       "TJE_spring    81.0\n",
-       "TJE_fall      62.0\n",
-       "Name: 2014, dtype: float64"
-      ]
-     },
-     "execution_count": 30,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "df2 = df.set_index('year')\n",
-    "df2\n",
-    "df2.loc[2014]\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "0f24994f-1778-4928-adea-14eadd5358bf",
-   "metadata": {},
-   "source": [
-    "## Slectecing rows and columns simulataneously \n",
-    "\n",
-    "can be down by `loc` (lables) or `iloc` (positions)\n",
-    "\n",
-    "### By lables or conditions \n",
-    "\n",
-    "syntax \n",
-    "``` \n",
-    "df.loc[ row-selection, column-selection ]\n",
-    "```\n",
-    "\n",
-    "### Example \n",
-    "selecting winter surveys for Mugu Lagoon and Tijiana Estuary after 2020 "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 31,
-   "id": "e6b1b079-6565-4a0f-8c3f-ec3e176035f0",
-   "metadata": {
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<div>\n",
-       "<style scoped>\n",
-       "    .dataframe tbody tr th:only-of-type {\n",
-       "        vertical-align: middle;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe tbody tr th {\n",
-       "        vertical-align: top;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe thead th {\n",
-       "        text-align: right;\n",
-       "    }\n",
-       "</style>\n",
-       "<table border=\"1\" class=\"dataframe\">\n",
-       "  <thead>\n",
-       "    <tr style=\"text-align: right;\">\n",
-       "      <th></th>\n",
-       "      <th>MUL_winter</th>\n",
-       "      <th>TJE_winter</th>\n",
-       "    </tr>\n",
-       "  </thead>\n",
-       "  <tbody>\n",
-       "    <tr>\n",
-       "      <th>11</th>\n",
-       "      <td>54.0</td>\n",
-       "      <td>53.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>12</th>\n",
-       "      <td>60.0</td>\n",
-       "      <td>60.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>13</th>\n",
-       "      <td>72.0</td>\n",
-       "      <td>60.0</td>\n",
-       "    </tr>\n",
-       "  </tbody>\n",
-       "</table>\n",
-       "</div>"
-      ],
-      "text/plain": [
-       "    MUL_winter  TJE_winter\n",
-       "11        54.0        53.0\n",
-       "12        60.0        60.0\n",
-       "13        72.0        60.0"
-      ]
-     },
-     "execution_count": 31,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "df.loc[df['year']>2020, ['MUL_winter', 'TJE_winter']]"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "aef93258-cf4f-471d-9fde-b3abe61bfe6e",
-   "metadata": {},
-   "source": [
-    "### ... by position \n",
-    "\n",
-    "use `iloc`\n",
-    "\n",
-    "Syntax \n",
-    "```\n",
-    "df.iloc[ row-indices, column-indicies ]\n",
-    "```\n",
-    "\n",
-    "### EXample \n",
-    "Suppose we want to select rows 3-7 (including 7) and 4th and 5th  columns"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 33,
-   "id": "b208fc76-5546-408d-afd4-d7c72df5625b",
-   "metadata": {
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<div>\n",
-       "<style scoped>\n",
-       "    .dataframe tbody tr th:only-of-type {\n",
-       "        vertical-align: middle;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe tbody tr th {\n",
-       "        vertical-align: top;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe thead th {\n",
-       "        text-align: right;\n",
-       "    }\n",
-       "</style>\n",
-       "<table border=\"1\" class=\"dataframe\">\n",
-       "  <thead>\n",
-       "    <tr style=\"text-align: right;\">\n",
-       "      <th></th>\n",
-       "      <th>CSM_fall</th>\n",
-       "      <th>MUL_winter</th>\n",
-       "    </tr>\n",
-       "  </thead>\n",
-       "  <tbody>\n",
-       "    <tr>\n",
-       "      <th>3</th>\n",
-       "      <td>38.0</td>\n",
-       "      <td>60.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>4</th>\n",
-       "      <td>45.0</td>\n",
-       "      <td>49.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>5</th>\n",
-       "      <td>45.0</td>\n",
-       "      <td>58.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>6</th>\n",
-       "      <td>47.0</td>\n",
-       "      <td>63.0</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>7</th>\n",
-       "      <td>43.0</td>\n",
-       "      <td>57.0</td>\n",
-       "    </tr>\n",
-       "  </tbody>\n",
-       "</table>\n",
-       "</div>"
-      ],
-      "text/plain": [
-       "   CSM_fall  MUL_winter\n",
-       "3      38.0        60.0\n",
-       "4      45.0        49.0\n",
-       "5      45.0        58.0\n",
-       "6      47.0        63.0\n",
-       "7      43.0        57.0"
-      ]
-     },
-     "execution_count": 33,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "df.iloc[ 3:8, [3,4] ]"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "2892f118-f55a-4417-b066-3ee8694a29a1",
-   "metadata": {},
-   "source": [
-    "## `iloc` column selections \n",
-    "\n",
-    "### EXample \n",
-    "\n",
-    "Suppose we wan t to access the 9th column in df. \n",
-    "already know this column in San Dieguito wetland during spring "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 34,
-   "id": "e5339831-253c-4448-9887-71765110ee1b",
-   "metadata": {
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "0     75.0\n",
-       "1     74.0\n",
-       "2     72.0\n",
-       "3     70.0\n",
-       "4     78.0\n",
-       "5     61.0\n",
-       "6     62.0\n",
-       "7     45.0\n",
-       "8     49.0\n",
-       "9     55.0\n",
-       "10     NaN\n",
-       "11    58.0\n",
-       "12    60.0\n",
-       "13    63.0\n",
-       "Name: SDW_spring, dtype: float64"
-      ]
-     },
-     "execution_count": 34,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "df.iloc[:, 8]"
    ]
   }
  ],
